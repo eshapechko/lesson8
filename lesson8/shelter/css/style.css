@@ -136,10 +136,14 @@ footer div img {
   }
   .mob-menu {
     display: block;
+    padding-right: 43px;
   }
 }
 
 @media (max-width: 470px) {
+  footer {
+    padding-top: 15px;
+  }
   footer h2 {
     font-size: 25px;
     line-height: 32px;
