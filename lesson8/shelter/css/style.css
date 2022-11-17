@@ -60,6 +60,7 @@ li {
   background: #fddcc4;
   border-radius: 100px;
   border: none;
+  border: 2px solid #f1cdb3;
 }
 h2 {
   font-weight: 400;

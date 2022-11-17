@@ -84,9 +84,7 @@ ul li a:hover {
 .pets img {
   display: block;
 }
-.about__shelter h2 {
-  max-width: 370px;
-}
+
 .about__shelter p {
   color: #4c4c4c;
   font-size: 15px;
@@ -202,12 +200,7 @@ ul li a:hover {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /* max-width: 915px; */
-  /* margin: auto; */
 }
-/* .information-donation {
-  padding-left: 30px;
-} */
 .donation-dog {
   margin-right: 30px;
 }
@@ -323,10 +316,6 @@ ul li a:hover {
   .arrow-left {
     margin-right: 80px;
   }
-  h2 {
-    max-width: 400px;
-    margin: auto;
-  }
 }
 @media (max-width: 600px) {
   .people {
@@ -336,6 +325,9 @@ ul li a:hover {
     letter-spacing: 0.06em;
     font-size: 25px;
     line-height: 32px;
+    text-align: center;
+  }
+  .about__shelter h2 {
     text-align: center;
   }
   .people p {
